@@ -14,29 +14,34 @@ div{
     border-color: black;
     border-width:  2px;
     border-style: solid;
-    background-color: #110000;
+    background: lightslategrey
+
 }
 .smBox{
     font-size: 30px;
     width: 180px;
     height: 40px;
     float: right;
-    border: 1px solid black;
-
+    border: 2px solid black;
+    border-top:none;
+    border-right: none;
 }
+
 .text{
     float: left;
 }
+
 .smText{
     margin: 0;
     padding: 0 20px 0 20px; 
 }
+
 .bg-1{
     background-color: #ff5566;
 }
-.bg-2{
+div.bg-2{
     background-color: crimson;
-    color: white
+    color: white;
 }
 .bg-3{
     background-color: #ff9900;
