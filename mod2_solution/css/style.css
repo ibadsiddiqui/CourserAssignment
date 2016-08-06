@@ -1,0 +1,43 @@
+body{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color: black;
+    box-sizing: border-box
+}
+div{
+        display: inline-block
+}
+.box{
+    width: 30%;
+    height: 22%;
+    margin: auto 10px auto 15px;
+    border-color: black;
+    border-width:  2px;
+    border-style: solid;
+    background-color: #110000;
+}
+.smBox{
+    font-size: 30px;
+    width: 180px;
+    height: 40px;
+    float: right;
+    border: 1px solid black;
+
+}
+.text{
+    float: left;
+}
+.smText{
+    margin: 0;
+    padding: 0 20px 0 20px; 
+}
+.bg-1{
+    background-color: #ff5566;
+}
+.bg-2{
+    background-color: crimson;
+    color: white
+}
+.bg-3{
+    background-color: #ff9900;
+}
