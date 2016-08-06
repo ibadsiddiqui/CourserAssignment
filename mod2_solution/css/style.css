@@ -2,20 +2,20 @@ body{
     font-family: 'Indie Flower', cursive;
     text-align: center;
     color: black;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 div{
         display: inline-block
+
 }
 .box{
     width: 30%;
     height: 22%;
-    margin: auto 10px auto 15px;
+    margin: auto 5px auto 10px;
     border-color: black;
     border-width:  2px;
     border-style: solid;
     background: lightslategrey
-
 }
 .smBox{
     font-size: 30px;
@@ -25,24 +25,85 @@ div{
     border: 2px solid black;
     border-top:none;
     border-right: none;
+        
+}
+.box3{
+    width: 30%;
+    height: 22%;
+    margin: auto 5px auto 10px;
+    border-color: black;
+    border-width:  2px;
+    border-style: solid;
+    background: lightslategrey
 }
 
 .text{
     float: left;
+    padding: 0 20px 0 20px; 
+        
 }
 
 .smText{
     margin: 0;
-    padding: 0 20px 0 20px; 
 }
 
 .bg-1{
     background-color: #ff5566;
 }
+
 div.bg-2{
     background-color: crimson;
     color: white;
 }
+
 .bg-3{
     background-color: #ff9900;
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+    div{
+       display: inline-block;
+    }
+    .box{
+        width: 48%;
+        height: 22%;
+        margin: auto;
+        border-color: black;
+        border-width:  2px;
+        border-style: solid;
+        background: lightslategrey
+    }
+    .box3{
+        width: 97%;
+        height: 22%;
+        margin: auto 5px auto 5px;
+        border-color: black;
+        border-width:  2px;
+        border-style: solid;
+        background: lightslategrey
+    }
+}
+
+@media screen and (max-width:767px){
+    div{
+       display: inline-block;
+    }
+    .box{
+        width: 100%;
+        height: 33%;
+        margin: auto;
+        border-color: black;
+        border-width:  2px;
+        border-style: solid;
+        background: lightslategrey
+    }
+    .box3{
+        width: 100%;
+        height: 33%;
+        margin: auto;
+        border-color: black;
+        border-width:  2px;
+        border-style: solid;
+        background: lightslategrey;
+    }
 }
